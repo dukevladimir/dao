@@ -26,7 +26,7 @@ class node:
 			# create nodes file
 			pass
 
-	def hander(input):
+	def handler(input):
 
 		if input == 'help':
 			pass
