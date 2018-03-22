@@ -12,7 +12,7 @@ def load_json(path):
 
 class node:
 
-	def __init__(config = None, nodes = None):
+	def __init__(self,config = None, nodes = None):
 		
 		if config is not None:
 			self._config = config
@@ -32,6 +32,9 @@ class node:
 			pass
 		else:
 			pass
+
+	def run():
+		pass
 
 
 def main():
@@ -54,6 +57,7 @@ def main():
 
 	# create node object
 	my_node = node(config,nodes)
+	my_node.run()
 
 if __name__ == '__main__':
 	main()
